@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<THERM-XML xmlns="http://windows.lbl.gov">
+<ThermVersion>Version 7.2.5.0</ThermVersion>
+<SaveDate>2014-03-14T17:24:44</SaveDate>
+
+<Title></Title>
+<CreatedBy></CreatedBy>
+<Company></Company>
+<Client></Client>
+<CrossSectionType>Sill</CrossSectionType>
+<Notes></Notes>
+<Units>SI</Units>
+<MeshControl MeshLevel="8" ErrorCheckFlag="1" ErrorLimit="10.000000" MaxIterations="10" CMAflag="0" />
+<Materials>
+	<Material Name="Aluminum Alloys (Oxidized, Mill Finish)" Type="0" Conductivity="160.000000" Absorptivity="0.500000" Emissivity="0.200000" RGBColor="0x0000FF"/>
+	<Material Name="Silica Gel (Desiccant) - Loose Fill" Type="0" Conductivity="0.030000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0xC600C6"/>
+	<Material Name="Butyl rubber, (Isobutene), Solid / Hot Melt" Type="0" Conductivity="0.240000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x6B6B6B"/>
+	<Material Name="Urethane / Polyurethane" Type="0" Conductivity="0.210000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0xD2D200"/>
+	<Material Name="Pine, Spruce, Fir, Larch, Mahogany" Type="0" Conductivity="0.140000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0xFF8000"/>
+	<Material Name="Silicone" Type="0" Conductivity="0.350000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x970097"/>
+	<Material Name="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_32" Type="1" Conductivity="0.034756" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x00FF00" CavityModel="4" />
+	<Material Name="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_95" Type="1" Conductivity="0.112967" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x00FF00" CavityModel="4" />
+	<Material Name="PFM01_Glass_0" Type="0" Conductivity="1.000000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x00FFFF"/>
+	<Material Name="PFM01_Gap_0" Type="0" Conductivity="0.087595" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0xC0C0C0"/>
+	<Material Name="PFM01_Glass_1" Type="0" Conductivity="1.000000" Absorptivity="0.500000" Emissivity="0.900000" RGBColor="0x00FFFF"/>
+</Materials>
+<BoundaryConditions>
+	<BoundaryCondition Name="Frame Cavity Surface" Type="7" H="0.000000" HeatFLux="0.000000" Temperature="0.000000" RGBColor="0xFF0000" 
+		Tr="0.000000" Hr="0.000000" Ei="1.000000" Viewfactor="1.000000" RadiationModel="0"
+		ConvectionFlag="0" FluxFlag="0" RadiationFlag="0" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+	<BoundaryCondition Name="Glazing Cavity Surface" Type="6" H="0.000000" HeatFLux="0.000000" Temperature="0.000000" RGBColor="0xFF0000" 
+		Tr="0.000000" Hr="0.000000" Ei="1.000000" Viewfactor="1.000000" RadiationModel="0"
+		ConvectionFlag="0" FluxFlag="0" RadiationFlag="0" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+	<BoundaryCondition Name="Adiabatic" Type="0" H="0.000000" HeatFLux="0.000000" Temperature="0.000000" RGBColor="0x000000" 
+		Tr="0.000000" Hr="0.000000" Ei="1.000000" Viewfactor="1.000000" RadiationModel="0"
+		ConvectionFlag="0" FluxFlag="1" RadiationFlag="0" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+	<BoundaryCondition Name="Interior Wood/Vinyl Frame (convection only)" Type="1" H="2.440000" HeatFLux="0.000000" Temperature="21.000000" RGBColor="0xFF8080" 
+		Tr="21.000000" Hr="-431602080.000000" Ei="1.000000" Viewfactor="1.000000" RadiationModel="3"
+		ConvectionFlag="1" FluxFlag="0" RadiationFlag="1" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+	<BoundaryCondition Name="PFM01_si:PFM01 (ID:4) U-factor Inside Film" Type="1" H="2.834150" HeatFLux="0.000000" Temperature="21.000000" RGBColor="0xFF0000" 
+		Tr="21.000000" Hr="4.503835" Ei="1.000000" Viewfactor="1.000000" RadiationModel="3"
+		ConvectionFlag="1" FluxFlag="0" RadiationFlag="1" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+	<BoundaryCondition Name="NFRC 100-2010 Exterior" Type="1" H="26.000000" HeatFLux="0.000000" Temperature="-18.000000" RGBColor="0x0080C0" 
+		Tr="-18.000000" Hr="-431602080.000000" Ei="1.000000" Viewfactor="1.000000" RadiationModel="1"
+		ConvectionFlag="1" FluxFlag="0" RadiationFlag="1" ConstantTemperatureFlag="0" EmisModifier="1.000000" />
+</BoundaryConditions>
+<GlazingSystems>
+<GlazingSystem index="1" nlayers="2" width="26.510000" units="mm"/>
+</GlazingSystems>
+<Polygons>
+	<Polygon ID="94" Material="Aluminum Alloys (Oxidized, Mill Finish)" NSides="11" Type="1" units="mm">
+		<Point index="0" x="283.087585" y="-236.078522" />
+		<Point index="1" x="283.087585" y="-236.409286" />
+		<Point index="2" x="283.087585" y="-236.790207" />
+		<Point index="3" x="282.757385" y="-238.365005" />
+		<Point index="4" x="283.087585" y="-239.939804" />
+		<Point index="5" x="283.087585" y="-240.523972" />
+		<Point index="6" x="283.417786" y="-240.650986" />
+		<Point index="7" x="283.417786" y="-239.939804" />
+		<Point index="8" x="283.087585" y="-238.365005" />
+		<Point index="9" x="283.417786" y="-236.790207" />
+		<Point index="10" x="283.417786" y="-236.078522" />
+	</Polygon>
+	<Polygon ID="90" Material="Aluminum Alloys (Oxidized, Mill Finish)" NSides="11" Type="1" units="mm">
+		<Point index="0" x="267.542755" y="-236.078522" />
+		<Point index="1" x="267.542755" y="-236.790207" />
+		<Point index="2" x="267.872955" y="-238.365005" />
+		<Point index="3" x="267.542755" y="-239.939804" />
+		<Point index="4" x="267.542755" y="-240.650986" />
+		<Point index="5" x="267.872955" y="-240.498581" />
+		<Point index="6" x="267.872955" y="-239.939804" />
+		<Point index="7" x="268.203156" y="-238.365005" />
+		<Point index="8" x="267.872955" y="-236.790207" />
+		<Point index="9" x="267.872955" y="-236.409164" />
+		<Point index="10" x="267.872955" y="-236.078522" />
+	</Polygon>
+	<Polygon ID="81" Material="Aluminum Alloys (Oxidized, Mill Finish)" NSides="8" Type="1" units="mm">
+		<Point index="0" x="267.542755" y="-240.650986" />
+		<Point index="1" x="269.066742" y="-242.175003" />
+		<Point index="2" x="281.893799" y="-242.175003" />
+		<Point index="3" x="283.417786" y="-240.650986" />
+		<Point index="4" x="283.087585" y="-240.523972" />
+		<Point index="5" x="281.773743" y="-241.844528" />
+		<Point index="6" x="269.205261" y="-241.844711" />
+		<Point index="7" x="267.872955" y="-240.498581" />
+	</Polygon>
+	<Polygon ID="80" Material="Aluminum Alloys (Oxidized, Mill Finish)" NSides="4" Type="1" units="mm">
+		<Point index="0" x="267.872955" y="-236.078522" />
+		<Point index="1" x="267.872955" y="-236.409164" />
+		<Point index="2" x="283.087585" y="-236.409286" />
+		<Point index="3" x="283.087585" y="-236.078522" />
+	</Polygon>
+	<Polygon ID="79" Material="Silica Gel (Desiccant) - Loose Fill" NSides="12" Type="1" units="mm">
+		<Point index="0" x="267.872955" y="-236.409164" />
+		<Point index="1" x="267.872955" y="-236.790207" />
+		<Point index="2" x="268.203156" y="-238.365005" />
+		<Point index="3" x="267.872955" y="-239.939804" />
+		<Point index="4" x="267.872955" y="-240.498581" />
+		<Point index="5" x="269.205261" y="-241.844711" />
+		<Point index="6" x="281.773743" y="-241.844528" />
+		<Point index="7" x="283.087585" y="-240.523972" />
+		<Point index="8" x="283.087585" y="-239.939804" />
+		<Point index="9" x="282.757385" y="-238.365005" />
+		<Point index="10" x="283.087585" y="-236.790207" />
+		<Point index="11" x="283.087585" y="-236.409286" />
+	</Polygon>
+	<Polygon ID="78" Material="Butyl rubber, (Isobutene), Solid / Hot Melt" NSides="7" Type="1" units="mm">
+		<Point index="0" x="283.417786" y="-236.078522" />
+		<Point index="1" x="283.417786" y="-236.790207" />
+		<Point index="2" x="283.087585" y="-238.365005" />
+		<Point index="3" x="283.417786" y="-239.939804" />
+		<Point index="4" x="283.417786" y="-240.650986" />
+		<Point index="5" x="283.735260" y="-240.650986" />
+		<Point index="6" x="283.735260" y="-236.079010" />
+	</Polygon>
+	<Polygon ID="77" Material="Butyl rubber, (Isobutene), Solid / Hot Melt" NSides="7" Type="1" units="mm">
+		<Point index="0" x="267.542755" y="-236.078522" />
+		<Point index="1" x="267.225250" y="-236.079025" />
+		<Point index="2" x="267.225250" y="-240.651016" />
+		<Point index="3" x="267.542755" y="-240.650986" />
+		<Point index="4" x="267.542755" y="-239.939804" />
+		<Point index="5" x="267.872955" y="-238.365005" />
+		<Point index="6" x="267.542755" y="-236.790207" />
+	</Polygon>
+	<Polygon ID="76" Material="Urethane / Polyurethane" NSides="18" Type="1" units="mm">
+		<Point index="0" x="267.225250" y="-247.191528" />
+		<Point index="1" x="267.554077" y="-247.192001" />
+		<Point index="2" x="267.554077" y="-246.874496" />
+		<Point index="3" x="268.189087" y="-246.239487" />
+		<Point index="4" x="269.471802" y="-246.239487" />
+		<Point index="5" x="271.199005" y="-244.385300" />
+		<Point index="6" x="279.784210" y="-244.385300" />
+		<Point index="7" x="281.511414" y="-246.239487" />
+		<Point index="8" x="282.794128" y="-246.239487" />
+		<Point index="9" x="283.429138" y="-246.874496" />
+		<Point index="10" x="283.429138" y="-247.191086" />
+		<Point index="11" x="283.735260" y="-247.191528" />
+		<Point index="12" x="283.735260" y="-240.650986" />
+		<Point index="13" x="283.417786" y="-240.650986" />
+		<Point index="14" x="281.893799" y="-242.175003" />
+		<Point index="15" x="269.066742" y="-242.175003" />
+		<Point index="16" x="267.542755" y="-240.650986" />
+		<Point index="17" x="267.225250" y="-240.651016" />
+	</Polygon>
+	<Polygon ID="2" Material="Pine, Spruce, Fir, Larch, Mahogany" NSides="19" Type="1" units="mm">
+		<Point index="0" x="243.811569" y="-278.954712" />
+		<Point index="1" x="299.775452" y="-278.954712" />
+		<Point index="2" x="299.775452" y="-273.392090" />
+		<Point index="3" x="302.950470" y="-273.392090" />
+		<Point index="4" x="302.950470" y="-278.954712" />
+		<Point index="5" x="359.704132" y="-278.954712" />
+		<Point index="6" x="359.704132" y="-261.479492" />
+		<Point index="7" x="334.304077" y="-261.479492" />
+		<Point index="8" x="334.304138" y="-251.319794" />
+		<Point index="9" x="331.764130" y="-248.779480" />
+		<Point index="10" x="317.829742" y="-248.779480" />
+		<Point index="11" x="289.845062" y="-248.779480" />
+		<Point index="12" x="289.845062" y="-251.939026" />
+		<Point index="13" x="289.845062" y="-261.479492" />
+		<Point index="14" x="261.919250" y="-261.479492" />
+		<Point index="15" x="261.817657" y="-261.479492" />
+		<Point index="16" x="245.251740" y="-261.479492" />
+		<Point index="17" x="245.150146" y="-261.479492" />
+		<Point index="18" x="243.811569" y="-261.479492" />
+	</Polygon>
+	<Polygon ID="3" Material="Pine, Spruce, Fir, Larch, Mahogany" NSides="5" Type="1" units="mm">
+		<Point index="0" x="289.845062" y="-248.779480" />
+		<Point index="1" x="317.829742" y="-248.779480" />
+		<Point index="2" x="317.787018" y="-238.619629" />
+		<Point index="3" x="315.242554" y="-236.079437" />
+		<Point index="4" x="289.845062" y="-236.079437" />
+	</Polygon>
+	<Polygon ID="16" Material="Butyl rubber, (Isobutene), Solid / Hot Melt" NSides="6" Type="1" units="mm">
+		<Point index="0" x="289.845062" y="-236.079437" />
+		<Point index="1" x="288.735260" y="-236.078522" />
+		<Point index="2" x="288.735260" y="-247.191528" />
+		<Point index="3" x="288.735260" y="-251.939026" />
+		<Point index="4" x="289.845062" y="-251.939026" />
+		<Point index="5" x="289.845062" y="-248.779480" />
+	</Polygon>
+	<Polygon ID="12" Material="Silicone" NSides="5" Type="1" units="mm">
+		<Point index="0" x="262.225250" y="-236.079010" />
+		<Point index="1" x="261.817657" y="-236.079407" />
+		<Point index="2" x="261.817657" y="-251.942444" />
+		<Point index="3" x="262.225250" y="-251.942444" />
+		<Point index="4" x="262.225250" y="-247.191528" />
+	</Polygon>
+	<Polygon ID="13" Material="Pine, Spruce, Fir, Larch, Mahogany" NSides="7" Type="1" units="mm">
+		<Point index="0" x="261.817657" y="-236.079407" />
+		<Point index="1" x="247.840012" y="-239.559235" />
+		<Point index="2" x="245.150146" y="-250.354248" />
+		<Point index="3" x="245.150146" y="-261.479492" />
+		<Point index="4" x="245.251740" y="-261.479492" />
+		<Point index="5" x="261.817657" y="-261.479492" />
+		<Point index="6" x="261.817657" y="-251.942444" />
+	</Polygon>
+	<Polygon ID="32" Material="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_32" NSides="4" Type="1" units="mm">
+		<Point index="0" x="299.775452" y="-273.392090" />
+		<Point index="1" x="299.775452" y="-278.954712" />
+		<Point index="2" x="302.950470" y="-278.954712" />
+		<Point index="3" x="302.950470" y="-273.392090" />
+	</Polygon>
+	<Polygon ID="95" Material="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_95" NSides="21" Type="1" units="mm">
+		<Point index="0" x="269.471802" y="-246.239487" />
+		<Point index="1" x="268.189087" y="-246.239487" />
+		<Point index="2" x="267.554077" y="-246.874496" />
+		<Point index="3" x="267.554077" y="-247.192001" />
+		<Point index="4" x="267.225250" y="-247.191528" />
+		<Point index="5" x="262.225250" y="-247.191528" />
+		<Point index="6" x="262.225250" y="-251.942444" />
+		<Point index="7" x="261.817657" y="-251.942444" />
+		<Point index="8" x="261.817657" y="-261.479492" />
+		<Point index="9" x="261.919250" y="-261.479492" />
+		<Point index="10" x="289.845062" y="-261.479492" />
+		<Point index="11" x="289.845062" y="-251.939026" />
+		<Point index="12" x="288.735260" y="-251.939026" />
+		<Point index="13" x="288.735260" y="-247.191528" />
+		<Point index="14" x="283.735260" y="-247.191528" />
+		<Point index="15" x="283.429138" y="-247.191086" />
+		<Point index="16" x="283.429138" y="-246.874496" />
+		<Point index="17" x="282.794128" y="-246.239487" />
+		<Point index="18" x="281.511414" y="-246.239487" />
+		<Point index="19" x="279.784210" y="-244.385300" />
+		<Point index="20" x="271.199005" y="-244.385300" />
+	</Polygon>
+	<Polygon ID="19" Material="PFM01_Glass_0" NSides="7" Type="11" units="mm">
+		<Point index="0" x="262.225250" y="-247.191528" />
+		<Point index="1" x="267.225250" y="-247.191528" />
+		<Point index="2" x="267.225250" y="-240.651016" />
+		<Point index="3" x="267.225250" y="-236.079025" />
+		<Point index="4" x="267.225250" y="-86.078529" />
+		<Point index="5" x="262.225250" y="-86.078529" />
+		<Point index="6" x="262.225250" y="-236.079010" />
+	</Polygon>
+	<Polygon ID="22" Material="PFM01_Gap_0" NSides="8" Type="5" units="mm">
+		<Point index="0" x="267.225250" y="-236.078522" />
+		<Point index="1" x="267.542755" y="-236.078522" />
+		<Point index="2" x="267.872955" y="-236.078522" />
+		<Point index="3" x="283.087585" y="-236.078522" />
+		<Point index="4" x="283.417786" y="-236.078522" />
+		<Point index="5" x="283.735260" y="-236.078522" />
+		<Point index="6" x="283.735260" y="-86.078529" />
+		<Point index="7" x="267.225250" y="-86.078529" />
+	</Polygon>
+	<Polygon ID="23" Material="PFM01_Glass_1" NSides="8" Type="9" units="mm">
+		<Point index="0" x="283.735260" y="-247.191528" />
+		<Point index="1" x="288.735260" y="-247.191528" />
+		<Point index="2" x="288.735260" y="-236.078522" />
+		<Point index="3" x="288.735260" y="-172.578522" />
+		<Point index="4" x="288.735260" y="-86.078529" />
+		<Point index="5" x="283.735260" y="-86.078529" />
+		<Point index="6" x="283.735260" y="-236.079010" />
+		<Point index="7" x="283.735260" y="-240.650986" />
+	</Polygon>
+</Polygons>
+<Boundaries>
+	<BCPolygon ID="52" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="261.919250" y="-261.479492" />
+		<Point index="1" x="261.817657" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="53" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="289.845062" y="-261.479492" />
+		<Point index="1" x="261.919250" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="54" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="289.845062" y="-251.939026" />
+		<Point index="1" x="289.845062" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="70" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="262.225250" y="-251.942444" />
+		<Point index="1" x="262.225250" y="-247.191528" />
+	</BCPolygon>
+	<BCPolygon ID="1" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="261.817657" y="-251.942444" />
+		<Point index="1" x="262.225250" y="-251.942444" />
+	</BCPolygon>
+	<BCPolygon ID="4" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="261.817657" y="-261.479492" />
+		<Point index="1" x="261.817657" y="-251.942444" />
+	</BCPolygon>
+	<BCPolygon ID="31" BC="Frame Cavity Surface" units="mm" PolygonID="32" EnclosureID="2" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="299.775452" y="-278.954712" />
+		<Point index="1" x="299.775452" y="-273.392090" />
+	</BCPolygon>
+	<BCPolygon ID="33" BC="Frame Cavity Surface" units="mm" PolygonID="32" EnclosureID="2" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="302.950470" y="-278.954712" />
+		<Point index="1" x="299.775452" y="-278.954712" />
+	</BCPolygon>
+	<BCPolygon ID="34" BC="Frame Cavity Surface" units="mm" PolygonID="32" EnclosureID="2" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="302.950470" y="-273.392090" />
+		<Point index="1" x="302.950470" y="-278.954712" />
+	</BCPolygon>
+	<BCPolygon ID="35" BC="Frame Cavity Surface" units="mm" PolygonID="32" EnclosureID="2" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="299.775452" y="-273.392090" />
+		<Point index="1" x="302.950470" y="-273.392090" />
+	</BCPolygon>
+	<BCPolygon ID="72" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="283.735260" y="-86.079071" />
+		<Point index="1" x="283.735260" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="73" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="267.225250" y="-86.079071" />
+		<Point index="1" x="283.735260" y="-86.079071" />
+	</BCPolygon>
+	<BCPolygon ID="74" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="267.225250" y="-236.079025" />
+		<Point index="1" x="267.225250" y="-86.079071" />
+	</BCPolygon>
+	<BCPolygon ID="99" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="267.542755" y="-236.079025" />
+		<Point index="1" x="267.225250" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="100" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="267.872955" y="-236.079025" />
+		<Point index="1" x="267.542755" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="101" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="283.087585" y="-236.079025" />
+		<Point index="1" x="267.872955" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="102" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="283.417786" y="-236.079025" />
+		<Point index="1" x="283.087585" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="103" BC="Glazing Cavity Surface" units="mm" PolygonID="22" EnclosureID="1" UFactorTag="">
+		<Point index="0" x="283.735260" y="-236.079025" />
+		<Point index="1" x="283.417786" y="-236.079025" />
+	</BCPolygon>
+	<BCPolygon ID="104" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="268.189087" y="-246.239487" />
+		<Point index="1" x="269.471802" y="-246.239487" />
+	</BCPolygon>
+	<BCPolygon ID="105" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="267.554077" y="-246.874496" />
+		<Point index="1" x="268.189087" y="-246.239487" />
+	</BCPolygon>
+	<BCPolygon ID="106" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="267.554077" y="-247.192001" />
+		<Point index="1" x="267.554077" y="-246.874496" />
+	</BCPolygon>
+	<BCPolygon ID="107" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="267.225250" y="-247.191528" />
+		<Point index="1" x="267.554077" y="-247.192001" />
+	</BCPolygon>
+	<BCPolygon ID="108" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.840000">
+		<Point index="0" x="262.225250" y="-247.191528" />
+		<Point index="1" x="267.225250" y="-247.191528" />
+	</BCPolygon>
+	<BCPolygon ID="109" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="288.735260" y="-251.939026" />
+		<Point index="1" x="289.845062" y="-251.939026" />
+	</BCPolygon>
+	<BCPolygon ID="110" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="288.735260" y="-247.191528" />
+		<Point index="1" x="288.735260" y="-251.939026" />
+	</BCPolygon>
+	<BCPolygon ID="111" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.840000">
+		<Point index="0" x="283.735260" y="-247.191528" />
+		<Point index="1" x="288.735260" y="-247.191528" />
+	</BCPolygon>
+	<BCPolygon ID="112" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="283.429138" y="-247.191086" />
+		<Point index="1" x="283.735260" y="-247.191528" />
+	</BCPolygon>
+	<BCPolygon ID="113" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="283.429138" y="-246.874496" />
+		<Point index="1" x="283.429138" y="-247.191086" />
+	</BCPolygon>
+	<BCPolygon ID="114" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="282.794128" y="-246.239487" />
+		<Point index="1" x="283.429138" y="-246.874496" />
+	</BCPolygon>
+	<BCPolygon ID="115" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="281.511414" y="-246.239487" />
+		<Point index="1" x="282.794128" y="-246.239487" />
+	</BCPolygon>
+	<BCPolygon ID="116" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="279.784210" y="-244.385300" />
+		<Point index="1" x="281.511414" y="-246.239487" />
+	</BCPolygon>
+	<BCPolygon ID="117" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="271.199005" y="-244.385300" />
+		<Point index="1" x="279.784210" y="-244.385300" />
+	</BCPolygon>
+	<BCPolygon ID="118" BC="Frame Cavity Surface" units="mm" PolygonID="95" EnclosureID="3" UFactorTag="" Emissivity="0.900000">
+		<Point index="0" x="269.471802" y="-246.239487" />
+		<Point index="1" x="271.199005" y="-244.385300" />
+	</BCPolygon>
+	<BCPolygon ID="67" BC="Adiabatic" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="243.811569" y="-278.954712" />
+		<Point index="1" x="299.775452" y="-278.954712" />
+	</BCPolygon>
+	<BCPolygon ID="5" BC="Adiabatic" units="mm" PolygonID="32" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="299.775452" y="-278.954712" />
+		<Point index="1" x="302.950470" y="-278.954712" />
+	</BCPolygon>
+	<BCPolygon ID="6" BC="Adiabatic" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="302.950470" y="-278.954712" />
+		<Point index="1" x="359.704132" y="-278.954712" />
+	</BCPolygon>
+	<BCPolygon ID="7" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="359.704132" y="-278.954712" />
+		<Point index="1" x="359.704132" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="8" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="359.704132" y="-261.479492" />
+		<Point index="1" x="334.304077" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="10" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="334.304077" y="-261.479492" />
+		<Point index="1" x="334.304138" y="-251.319794" />
+	</BCPolygon>
+	<BCPolygon ID="11" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="334.304138" y="-251.319794" />
+		<Point index="1" x="331.764130" y="-248.779480" />
+	</BCPolygon>
+	<BCPolygon ID="15" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="331.764130" y="-248.779480" />
+		<Point index="1" x="317.829742" y="-248.779480" />
+	</BCPolygon>
+	<BCPolygon ID="17" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="3" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="317.829742" y="-248.779480" />
+		<Point index="1" x="317.787018" y="-238.619629" />
+	</BCPolygon>
+	<BCPolygon ID="18" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="3" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="317.787018" y="-238.619629" />
+		<Point index="1" x="315.242554" y="-236.079437" />
+	</BCPolygon>
+	<BCPolygon ID="25" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="3" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="315.242554" y="-236.079437" />
+		<Point index="1" x="289.845062" y="-236.079437" />
+	</BCPolygon>
+	<BCPolygon ID="26" BC="Interior Wood/Vinyl Frame (convection only)" units="mm" PolygonID="16" EnclosureID="0" UFactorTag="Frame">
+		<Point index="0" x="289.845062" y="-236.079437" />
+		<Point index="1" x="288.735260" y="-236.078522" />
+	</BCPolygon>
+	<BCPolygon ID="27" BC="PFM01_si:PFM01 (ID:4) U-factor Inside Film" units="mm" PolygonID="23" EnclosureID="0" UFactorTag="Edge">
+		<Point index="0" x="288.735260" y="-236.078522" />
+		<Point index="1" x="288.735260" y="-172.578522" />
+	</BCPolygon>
+	<BCPolygon ID="28" BC="PFM01_si:PFM01 (ID:4) U-factor Inside Film" units="mm" PolygonID="23" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="288.735260" y="-172.578522" />
+		<Point index="1" x="288.735260" y="-86.078529" />
+	</BCPolygon>
+	<BCPolygon ID="29" BC="Adiabatic" units="mm" PolygonID="23" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="288.735260" y="-86.078529" />
+		<Point index="1" x="283.735260" y="-86.078529" />
+	</BCPolygon>
+	<BCPolygon ID="56" BC="Adiabatic" units="mm" PolygonID="22" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="283.735260" y="-86.078529" />
+		<Point index="1" x="267.225250" y="-86.078529" />
+	</BCPolygon>
+	<BCPolygon ID="57" BC="Adiabatic" units="mm" PolygonID="19" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="267.225250" y="-86.078529" />
+		<Point index="1" x="262.225250" y="-86.078529" />
+	</BCPolygon>
+	<BCPolygon ID="58" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="19" EnclosureID="0" UFactorTag="">
+		<Point index="0" x="262.225250" y="-86.078529" />
+		<Point index="1" x="262.225250" y="-236.079010" />
+	</BCPolygon>
+	<BCPolygon ID="59" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="12" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="262.225250" y="-236.079010" />
+		<Point index="1" x="261.817657" y="-236.079407" />
+	</BCPolygon>
+	<BCPolygon ID="60" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="13" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="261.817657" y="-236.079407" />
+		<Point index="1" x="247.840012" y="-239.559235" />
+	</BCPolygon>
+	<BCPolygon ID="61" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="13" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="247.840012" y="-239.559235" />
+		<Point index="1" x="245.150146" y="-250.354248" />
+	</BCPolygon>
+	<BCPolygon ID="62" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="13" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="245.150146" y="-250.354248" />
+		<Point index="1" x="245.150146" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="63" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="245.150146" y="-261.479492" />
+		<Point index="1" x="243.811569" y="-261.479492" />
+	</BCPolygon>
+	<BCPolygon ID="64" BC="NFRC 100-2010 Exterior" units="mm" PolygonID="2" EnclosureID="0" UFactorTag="SHGC exterior">
+		<Point index="0" x="243.811569" y="-261.479492" />
+		<Point index="1" x="243.811569" y="-278.954712" />
+	</BCPolygon>
+</Boundaries>
+<Results>
+	<Case>
+		<U-factors>
+			<Tag>Frame</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="110.824326" />
+				<U-factor units="W/m2-K" value="0.854318" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="70.968872" />
+				<U-factor units="W/m2-K" value="1.334095" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="42.876190" />
+				<U-factor units="W/m2-K" value="2.208200" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="42.876266" />
+				<U-factor units="W/m2-K" value="2.208196" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="70.968842" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="1.334095" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>SHGC Exterior</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="55.876022" />
+				<U-factor units="W/m2-K" value="1.535105" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="18.413681" />
+				<U-factor units="W/m2-K" value="4.658251" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="42.875702" />
+				<U-factor units="W/m2-K" value="2.000563" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="42.875656" />
+				<U-factor units="W/m2-K" value="2.000565" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="18.413727" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="4.658239" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>Edge</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="3.013244" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="3.013244" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="3.013244" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="0.000092" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="2089954.250000" />
+			</Projection>
+		</U-factors>
+		<FrameCavities>
+			<FrameCavity Name="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_32" Conductivity="0.034756" EquivalentLength="3.175018" EquivalentHeight="5.562622" HeatFlowDirection="left" />
+			<FrameCavity Name="PFM01_si:Frame Cavity NFRC 100-2001_Cavity_95" Conductivity="0.112967" EquivalentLength="26.461973" EquivalentHeight="16.139421" HeatFlowDirection="left" />
+		</FrameCavities>
+	</Case>
+</Results>
+</THERM-XML>

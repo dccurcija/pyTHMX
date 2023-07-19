@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<THERM-XML xmlns="http://windows.lbl.gov">
+<ThermVersion>Version 8.0.31.0</ThermVersion>
+<FileVersion>1</FileVersion>
+<SaveDate>2023-07-18T15:13:04</SaveDate>
+
+<Title></Title>
+<CreatedBy></CreatedBy>
+<Company></Company>
+<Client></Client>
+<CrossSectionType>Sill</CrossSectionType>
+<Notes></Notes>
+<Units>SI</Units>
+<Results>
+	<Case>
+		<ModelType>U-factor</ModelType>
+		<U-factors>
+			<Tag>Frame</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="111.262833" />
+				<U-factor units="W/m2-K" value="1.976065" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="50.512451" />
+				<U-factor units="W/m2-K" value="4.352643" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="61.035812" />
+				<U-factor units="W/m2-K" value="3.602191" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="61.035828" />
+				<U-factor units="W/m2-K" value="3.602190" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="50.512482" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="4.352640" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>SHGC Exterior</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="66.161247" />
+				<U-factor units="W/m2-K" value="3.552380" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="8.384552" />
+				<U-factor units="W/m2-K" value="28.031303" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="61.036133" />
+				<U-factor units="W/m2-K" value="3.850668" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="61.036133" />
+				<U-factor units="W/m2-K" value="3.850668" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="8.384552" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="28.031303" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>Edge</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.753483" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.753483" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.753483" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="0.000000" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor value="NA" />
+			</Projection>
+		</U-factors>
+		<FrameCavities>
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_37" Conductivity="0.027471" EquivalentLength="1.149680" EquivalentHeight="4.410079" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_27" Conductivity="0.189899" EquivalentLength="71.414940" EquivalentHeight="19.559042" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_19" Conductivity="0.041091" EquivalentLength="33.225098" EquivalentHeight="21.307545" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_18" Conductivity="0.044923" EquivalentLength="42.292603" EquivalentHeight="9.907975" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_17" Conductivity="0.024098" EquivalentLength="1.002898" EquivalentHeight="4.629008" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_16" Conductivity="0.028237" EquivalentLength="11.966191" EquivalentHeight="19.374552" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_15" Conductivity="0.024769" EquivalentLength="0.898018" EquivalentHeight="0.898039" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_14" Conductivity="0.024643" EquivalentLength="1.600189" EquivalentHeight="0.635010" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_13" Conductivity="0.024768" EquivalentLength="0.898018" EquivalentHeight="0.897996" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_12" Conductivity="0.024236" EquivalentLength="1.626405" EquivalentHeight="4.879158" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_10" Conductivity="0.025396" EquivalentLength="2.794006" EquivalentHeight="2.184387" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_9" Conductivity="0.025426" EquivalentLength="2.717773" EquivalentHeight="2.181824" HeatFlowDirection="Up" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_8" Conductivity="0.025701" EquivalentLength="1.626380" EquivalentHeight="4.879169" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_7" Conductivity="0.036025" EquivalentLength="3.788802" EquivalentHeight="6.624179" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_6" Conductivity="0.026400" EquivalentLength="2.492073" EquivalentHeight="4.164693" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_2" Conductivity="0.025139" EquivalentLength="2.822135" EquivalentHeight="2.220094" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_5" Conductivity="0.076753" EquivalentLength="34.498814" EquivalentHeight="14.248062" HeatFlowDirection="Left" />
+		</FrameCavities>
+	</Case>
+	<Case>
+		<ModelType>Condensation Resistance</ModelType>
+		<U-factors>
+			<Tag>Frame</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="111.262833" />
+				<U-factor units="W/m2-K" value="1.936309" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="50.512451" />
+				<U-factor units="W/m2-K" value="4.265072" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="61.035812" />
+				<U-factor units="W/m2-K" value="3.529718" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="61.035828" />
+				<U-factor units="W/m2-K" value="3.529717" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="50.512482" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="4.265069" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>SHGC Exterior</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="66.161247" />
+				<U-factor units="W/m2-K" value="3.573982" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="8.384552" />
+				<U-factor units="W/m2-K" value="28.201757" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="61.036133" />
+				<U-factor units="W/m2-K" value="3.874084" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="61.036133" />
+				<U-factor units="W/m2-K" value="3.874084" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="8.384552" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor units="W/m2-K" value="28.201757" />
+			</Projection>
+		</U-factors>
+		<U-factors>
+			<Tag>Edge</Tag>
+			<DeltaT units="C" value="39.000000" />
+			<Projection>
+				<Length-type>Total length</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.717303" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected X</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected Y</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.717303" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom length</Length-type>
+				<Length units="mm" value="0.000000" />
+				<U-factor value="NA" />
+			</Projection>
+			<Projection>
+				<Length-type>Projected in glass plane</Length-type>
+				<Length units="mm" value="63.500000" />
+				<U-factor units="W/m2-K" value="1.717303" />
+			</Projection>
+			<Projection>
+				<Length-type>Custom rotation</Length-type>
+				<Length units="mm" value="0.000000" />
+				<ProjectionAngle>1.570796</ProjectionAngle>
+				<U-factor value="NA" />
+			</Projection>
+		</U-factors>
+		<FrameCavities>
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_37" Conductivity="0.027471" EquivalentLength="1.149680" EquivalentHeight="4.410079" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_27" Conductivity="0.189899" EquivalentLength="71.414940" EquivalentHeight="19.559042" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_19" Conductivity="0.041091" EquivalentLength="33.225098" EquivalentHeight="21.307545" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_18" Conductivity="0.044923" EquivalentLength="42.292603" EquivalentHeight="9.907975" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_17" Conductivity="0.024098" EquivalentLength="1.002898" EquivalentHeight="4.629008" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_16" Conductivity="0.028237" EquivalentLength="11.966191" EquivalentHeight="19.374552" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_15" Conductivity="0.024769" EquivalentLength="0.898018" EquivalentHeight="0.898039" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_14" Conductivity="0.024643" EquivalentLength="1.600189" EquivalentHeight="0.635010" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_13" Conductivity="0.024768" EquivalentLength="0.898018" EquivalentHeight="0.897996" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_12" Conductivity="0.024236" EquivalentLength="1.626405" EquivalentHeight="4.879158" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_10" Conductivity="0.025396" EquivalentLength="2.794006" EquivalentHeight="2.184387" HeatFlowDirection="Down" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_9" Conductivity="0.025426" EquivalentLength="2.717773" EquivalentHeight="2.181824" HeatFlowDirection="Up" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_8" Conductivity="0.025701" EquivalentLength="1.626380" EquivalentHeight="4.879169" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_7" Conductivity="0.036025" EquivalentLength="3.788802" EquivalentHeight="6.624179" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_6" Conductivity="0.026400" EquivalentLength="2.492073" EquivalentHeight="4.164693" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_2" Conductivity="0.025139" EquivalentLength="2.822135" EquivalentHeight="2.220094" HeatFlowDirection="Left" />
+			<FrameCavity Name="TRR01_si:Frame Cavity NFRC 100-2001_Cavity_5" Conductivity="0.076753" EquivalentLength="34.498814" EquivalentHeight="14.248062" HeatFlowDirection="Left" />
+		</FrameCavities>
+	</Case>
+</Results>
+</THERM-XML>
