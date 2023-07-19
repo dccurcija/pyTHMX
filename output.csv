@@ -1,1 +1,4 @@
-Case Name,Tag,DeltaT,LengthType,Length,U-Factor
+ThermVersion,Filename,CrossSectionType,Frame_U-factor,Edge_U-factor
+Version 7.2.5.0,1600S1_si,Sill,,
+Version 8.0.31.0,TRR01_si_rump,Sill,,
+Version 7.2.5.0,PFM01_si,Sill,,
