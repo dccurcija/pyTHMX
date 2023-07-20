@@ -16,15 +16,19 @@ def extract_values_from_file(file_path):
     cross_section_type = root.find('lbl:CrossSectionType', ns).text
     frame_u_factor = None
     edge_u_factor = None
-    for model in root.findall('.//lbl:Model', ns):
-        model_type = model.find('lbl:ModelType', ns).text
-        if model_type == 'U-factor':
-            for tag in model.findall('.//lbl:Tag', ns):
-                tag_text = tag.text
-                if tag_text == 'Frame':
-                    frame_u_factor = model.find('lbl:U-factor', ns).get('value')
-                elif tag_text == 'Edge':
-                    edge_u_factor = model.find('lbl:U-factor', ns).get('value')
+    for results in root.findall('lbl:Results', ns):
+        for case in results.findall('lbl:Case', ns):
+            model_type = case.find('lbl:ModelType', ns)
+            if model_type is None or model_type.text == "U-factor":
+                for u in case.findall('lbl:U-factors', ns):
+                    tag_name = u.find('lbl:Tag', ns)
+                    for projection in u.findall('lbl:Projection', ns):
+                        length_type = projection.find('lbl:Length-type', ns)
+                        if length_type is not None and length_type.text == "Projected in glass plane":
+                            if tag_name.text == 'Frame':
+                                frame_u_factor = projection.find('lbl:U-factor', ns).get('value')
+                            elif tag_name.text == 'Edge':
+                                edge_u_factor = projection.find('lbl:U-factor', ns).get('value')
 
     filename_without_ext = os.path.splitext(os.path.basename(file_path))[0]
 
